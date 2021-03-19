@@ -8,6 +8,8 @@ let package = Package(
     ],
     targets: [
         .target(name: "HookKit"),
-        .testTarget(name: "HookKitTests", dependencies: ["HookKit"]),
+        .testTarget(name: "HookKitTests", dependencies: [
+            .target(name: "HookKit"),
+        ]),
     ]
 )

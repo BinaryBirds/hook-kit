@@ -8,7 +8,7 @@ Generic event hook functions and invocation for Swift.
 Add the repository as a dependency:
 
 ```swift
-.package(url: "https://github.com/binarybirds/hook-kit.git", from: "1.0.0"),
+.package(url: "https://github.com/binarybirds/hook-kit", from: "1.0.0"),
 ```
 
 Add HookKit to the target dependencies:
